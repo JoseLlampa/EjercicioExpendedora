@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioExpendedora", "EjercicioExpendedora\EjercicioExpendedora.csproj", "{113D28D9-98E3-4FFF-9E82-F92C93F7767D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solucion.Consola", "..\..\..\..\Downloads\EjercicioIntegrador1-master\Solucion.Consola\Solucion.Consola.csproj", "{4370B44D-40C6-448E-8D4F-27A0664C6A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solucion.LibreriaNegocio", "..\..\..\..\Downloads\EjercicioIntegrador1-master\Solucion.LibreriaNegocio\Solucion.LibreriaNegocio.csproj", "{426F1038-B4F8-418C-97DA-23C8D61E9B6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{113D28D9-98E3-4FFF-9E82-F92C93F7767D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{113D28D9-98E3-4FFF-9E82-F92C93F7767D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{113D28D9-98E3-4FFF-9E82-F92C93F7767D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4370B44D-40C6-448E-8D4F-27A0664C6A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4370B44D-40C6-448E-8D4F-27A0664C6A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4370B44D-40C6-448E-8D4F-27A0664C6A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4370B44D-40C6-448E-8D4F-27A0664C6A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426F1038-B4F8-418C-97DA-23C8D61E9B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426F1038-B4F8-418C-97DA-23C8D61E9B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426F1038-B4F8-418C-97DA-23C8D61E9B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426F1038-B4F8-418C-97DA-23C8D61E9B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

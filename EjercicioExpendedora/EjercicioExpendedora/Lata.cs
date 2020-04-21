@@ -27,7 +27,44 @@ namespace EjercicioExpendedora
 
         public override string ToString()
         {
-            return "Codigo: " + Codigo ;
+            return "Codigo: " + Codigo;
+        }
+
+        public Lata(string codigo, double precio, double volumen)
+        {
+            this.codigo = codigo;
+            this.precio = precio;
+            this.volumen = volumen;
+
+            switch (codigo)
+            {
+                case "CO1":
+                    this.nombre = "Coca Cola Regular";
+                    this.sabor = "Cola";
+                    break;
+                case "C02":
+                    this.nombre = "Coca Cola Zero";
+                    this.sabor = "Cola";
+                    break;
+                case "SP1":
+                    this.nombre = "Sprite Regular";
+                    this.sabor = "Lima Limon";
+                    break;
+                case "SP2":
+                    this.nombre = "Sprite Zero";
+                    this.sabor = "Lima Limon";
+                    break;
+                case "FA1":
+                    this.nombre = "Fanta Regular";
+                    this.sabor = "Cola";
+                    break;
+                case "FA2":
+                    this.nombre = "Fanta Zero";
+                    this.sabor = "Lima Limon";
+                    break;
+
+            }
+
         }
     }
 }
